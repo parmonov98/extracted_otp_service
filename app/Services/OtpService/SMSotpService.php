@@ -22,7 +22,7 @@ class SMSotpService implements OtpSendInterface
         // TODO
         //        if (app()->environment() === 'production') {
         //            if (RateLimiter::tooManyAttempts($key, 5)) {
-        //                throw new Exception("Juda koʻp soʻrov yuborildi. Iltimos keyinroq qayta urinib ko'ring.");
+        //                throw new Exception("Too many requests sent. Please try again later.");
         //            }
         //        }
 
